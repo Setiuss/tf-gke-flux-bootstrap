@@ -1,7 +1,6 @@
 variable "GOOGLE_PROJECT" {
   type        = string
   description = "GCP project name"
-  default     = "k8s-k3s"
 }
 
 variable "GOOGLE_REGION" {
@@ -20,7 +19,6 @@ variable "GITHUB_TOKEN" {
 
 variable "FLUX_GITHUB_REPO" {
   type    = string
-  default = "flux0"
 }
 
 variable "FLUX_GITHUB_TARGET_PATH" {
