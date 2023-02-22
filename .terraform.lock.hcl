@@ -3,7 +3,7 @@
 
 provider "registry.terraform.io/fluxcd/flux" {
   version     = "0.23.0"
-  constraints = ">= 0.22.0"
+  constraints = ">= 0.23.0"
   hashes = [
     "h1:y1GdLmpI2rWvSRnnrVL1KVMqMz6Y91qTVOyH6lCZDfw=",
     "zh:01e40fae6b7a988a411034fce87f05070e471047d30f195a8cd82eb715bf84e1",
@@ -25,7 +25,7 @@ provider "registry.terraform.io/fluxcd/flux" {
 
 provider "registry.terraform.io/hashicorp/google" {
   version     = "4.52.0"
-  constraints = "4.52.0"
+  constraints = ">= 4.47.0, != 4.49.0, != 4.50.0, 4.52.0, < 5.0.0"
   hashes = [
     "h1:Nlb8C/liQ7fnT4sNXSjTGxTlwzw/w28K96kp3TI7DWo=",
     "zh:1e36ac7c1be43cbb1d05fe1e5497dd058d1d87e03f848fd200bb043b1d6883f9",
@@ -64,7 +64,7 @@ provider "registry.terraform.io/hashicorp/local" {
 
 provider "registry.terraform.io/hashicorp/tls" {
   version     = "4.0.4"
-  constraints = ">= 4.0.4"
+  constraints = "4.0.4"
   hashes = [
     "h1:pe9vq86dZZKCm+8k1RhzARwENslF3SXb9ErHbQfgjXU=",
     "zh:23671ed83e1fcf79745534841e10291bbf34046b27d6e68a5d0aab77206f4a55",
